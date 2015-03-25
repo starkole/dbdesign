@@ -4,7 +4,7 @@
 ## Definitions
 **Problem space** - specific set of objects and interactions that limits the design of the database system.
 
-**Data model** - conceptualy describes the problem space (entities, their attrubutes, relationships, constraints).
+**Data model** - conceptually describes the problem space (entities, their attributes, relationships, constraints).
 
 **Schema** - data model described in terms of DBMS.
 
@@ -12,7 +12,7 @@
 
 **Database** - physical objects (files) where the actual data is stored.
 
-**Relation** - conseptual representation of data in the form of table with rows and columns.
+**Relation** - conceptual representation of data in the form of table with rows and columns.
 
 **Tuple** - relation's row (single data record).
 
