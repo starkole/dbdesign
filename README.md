@@ -20,7 +20,13 @@
 
 **Attribute** - relation's column.
 
+**Domain** - the set of all possible values that an attribute may validly contain. Can be *type-compatible*.
+
 **Relation degree** - number of attributes in the relation.
+
+**Entity** - anything about which the DBMS needs to store information. Can be *concrete* or *abstract*.
+
+**Relationship** - association between entities (*relationship participants*). Can be *one-to-one*, *one-to-many*, or *many-to-many*. Entity participation in a relationship can be *partial* or *total*.
 
 ## The Relational Model
 *defines data structure, data integrity and data manipulation rules*
