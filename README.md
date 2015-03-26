@@ -1,7 +1,7 @@
-# Database design
+#Database design
 *Short notes on database design topics.*
 
-## Definitions
+##Definitions
 **Problem space** - specific set of objects and interactions that limits the design of the database system.
 
 **Data model** - conceptually describes the problem space (entities, their attributes, relationships, constraints).
@@ -36,7 +36,9 @@
 
 **Normalization** - the process of organizing the attributes and relations to minimize data redundancy.
 
-## The Relational Model
+**Data integrity** - the rules that the DBMS will use to ensure that the actual physical data stored in it is plausible.
+
+##The Relational Model
 *defines data structure, data integrity and data manipulation rules*
 
 Main characteristics of relational DBMS:
@@ -44,7 +46,7 @@ Main characteristics of relational DBMS:
 * at any given position in the relation there is one and only one value
 * all operations are performed on an entire relation and result in an entire relation
 
-## Normalization forms
+##Normalization forms
 ### First normal form (1NF)
 Each attribute of a tuple must contain a single value.
 ###Second normal form (2NF)
@@ -58,5 +60,11 @@ The relation must be in Boyce/Codd normal form and independent repeating groups 
 ###Fifth normal form (5NF)
 A relation is in the 5NF if decomposing it would not remove any redundancies.
 
-Here Was I!
+##Data integrity constraints
+* **Domain integrity (domain constraint)** - the rules, that defines domain legal values.
+* **Transition integrity** - defines the states through which a tuple can validly pass.
+* **Entity integrity** - ensures the integrity of the entities being modeled by the system. The constraints defined at the entity level can govern a single attribute, multiple attributes, or the relation as a whole.
+* **Referential integrity** - adds rules to protect the links between relations to ensure the foreign keys always has the corresponding primary keys.
+* **Database integrity** - defines rules that reference more than one relation.
+* **Transaction integrity** - governs the ways in which the database can be manipulated. Unlike other constraints, transaction constraints are procedural and thus are not part of the data model.
 
